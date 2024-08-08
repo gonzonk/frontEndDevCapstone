@@ -7,17 +7,25 @@ import Footer from './Components/Footer'
 function App() {
   return (
     <>
-      <Header>
-        
-      </Header>
-      <Nav>
+      {/* <div style={{backgroundColor:'aqua', style:'grid'}}>
+        Header1
+      </div>
+      <div style={{backgroundColor:'red'}}>
+        Header2
+      </div> */}
+      <div className='topBar'>
+        <Header>
 
-      </Nav>
+        </Header>
+        <Nav>
+
+        </Nav>
+      </div>
       <Main>
 
       </Main>
       <Footer>
-        
+
       </Footer>
     </>
   );

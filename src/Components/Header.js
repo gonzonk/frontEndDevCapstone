@@ -2,8 +2,8 @@ import logo from "../Assets/logo.jpg"
 
 function Header(){
     return (
-        <header>
-            <img src={logo}></img>
+        <header className="header">
+            <img src={logo} width='40%'></img>
         </header>
     )
 }
