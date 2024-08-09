@@ -1,0 +1,10 @@
+.specials {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 4fr 4fr 4fr 3fr;
+    grid-template-rows: 75px 1fr;
+}
+
+.specials .specialHeader {
+    grid-column: 2/ span 4;
+}

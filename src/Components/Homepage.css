@@ -1,0 +1,26 @@
+.textHolder h1 {
+    color: #edefee;
+}
+
+.textHolder p{
+    color: #edefee;
+}
+
+.callToAction {
+    background-color: #495e57;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.textHolder {
+    grid-column: 3/ span 4;
+}
+
+.callToAction img {
+    grid-column:7/ span 4 ;
+    width: 80%;
+    margin: 5%;
+    border-radius: 40px 40px;
+    border-style: solid;
+
+}

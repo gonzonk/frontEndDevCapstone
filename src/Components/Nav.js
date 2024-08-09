@@ -1,3 +1,5 @@
+import Homepage from './Homepage';
+
 function Nav(){
     return (
         <nav className="nav">

@@ -83,13 +83,13 @@ a {
   display:grid;
   padding-top: 5%;
   padding-bottom: 5%;
-  place-items: center;
+  place-items: center start;
   grid-column: 3/ span 4;
 }
 
 .nav {
   display:grid;
-  place-items: center;
+  place-items: center end;
   grid-column: 7/ span 4;
 }
 
@@ -108,7 +108,7 @@ a {
 .footer {
   background-color: #edefee;
   display: grid;
-  place-items: center;
+  place-items: center start;
   grid-template-columns: repeat(12, 1fr);
 }
 
