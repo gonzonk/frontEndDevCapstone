@@ -1,6 +1,10 @@
+import BookingForm from "./BookingForm";
+
 function BookingPage(){
     return (
-        <div></div>
+        <div className="bookingPage">
+            <BookingForm></BookingForm>
+        </div>
     )
 }
 
