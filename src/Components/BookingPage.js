@@ -1,9 +1,10 @@
 import BookingForm from "./BookingForm";
 
-function BookingPage(){
+function BookingPage(props){
     return (
         <div className="bookingPage">
-            <BookingForm></BookingForm>
+            <h1>Booking Page</h1>
+            <BookingForm availableTimes={props.availableTimes} availableTimesReducer={props.availableTimesReducer} submitFunction={props.submitFunction}></BookingForm>
         </div>
     )
 }
