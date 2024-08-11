@@ -30,7 +30,7 @@ function BookingForm(props){
                     <option>Birthday</option>
                     <option>Anniversary</option>
                 </select>
-                <input type="submit" value="Place Reservation"></input>
+                <input type="submit" aria-label="On Click" value="Place Reservation"></input>
             </form>
         </div>
     )
